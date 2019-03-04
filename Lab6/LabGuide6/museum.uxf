@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>170</y>
+      <w>250</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Museum
+--
+- int number
+- String name
+- double entrance_price
+- String holiday
+- String city
+--
++ Museum(String,double,String,String)
++ Getters and Setters
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

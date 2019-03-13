@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>70</y>
+      <w>300</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>Seminar
+--
+- id : int
+- title : String
+- speaker : String
+- date : String
+- duration : int
+- place : String
+__- lastUsedId=500 : int__
+--
++ Seminar ()
++ Seminar (String, String,String,int, String)
++ getId(): int
++ getDuration(): int
++ getTitle(): String
++ getInput(): void
++ toString(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>80</y>
+      <w>250</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>SeminarList
+--
+__+ MAX_SIZE=3 : int__
+__- seminar[ ] : Seminar__
+__- count : int__
+--
+__+ addSeminar(): boolean__
+__+ removeSeminar(String): boolean__
+__+ getSeminar(String):Seminar__
+__+ getAll(): Seminar[ ]__
+__+ getMaximumDuration(): Seminar__
+__+ display(): void__
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

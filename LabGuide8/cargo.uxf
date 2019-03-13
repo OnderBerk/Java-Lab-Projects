@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>270</y>
+      <w>290</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Cargo
+--
+- name: String
+- website: String
+- phone: String
+- numOfBranch : int
+- gr : int
+- price : double
+__- totalNumOfCargoBranch : int__
+--
++ Cargo()
++ Cargo(String,String,String,int,int)
++ Getters
++ setPrice(double)
++ getInput(): void
+__+ getTotalNumOfCargoBranch():int__</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>350</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>CargoMain
+--
+__+ display(Cargo[ ]): void__
+__+ calculatePrice(Cargo[ ]):void__
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
